@@ -22,15 +22,15 @@
 cd $HOME
 git clone https://github.com/mahdiroo/MaTaDoT_TG.git
 cd MaTaDoT_TG
-chmod +x beyond.sh
-./beyond.sh install
-./beyond.sh 
+chmod +x matador.sh
+./matador.sh install
+./matador.sh 
 # Enter a phone number & confirmation code.
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/MaTaDoT_TG.git && cd MaTaDoT_TG && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/mahdiroo/MaTaDoT_TG.git && cd MaTaDoT_TG && chmod +x matador.sh && ./matador.sh install && ./matador.sh
 ```
 
 * * *
