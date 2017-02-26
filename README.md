@@ -20,7 +20,7 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/mahdiroo/MaTaDoT_TG.git
+git clone https://github.com/mahdiroo/MaTaDoR_TG.git
 cd MaTaDoT_TG
 chmod +x matador.sh
 ./matador.sh install
@@ -30,7 +30,7 @@ chmod +x matador.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/mahdiroo/MaTaDoT_TG.git && cd MaTaDoT_TG && chmod +x matador.sh && ./matador.sh install && ./matador.sh
+cd $HOME && git clone https://github.com/mahdiroo/MaTaDoR_TG.git && cd MaTaDoR_TG && chmod +x matador.sh && ./matador.sh install && ./matador.sh
 ```
 
 * * *
@@ -39,7 +39,7 @@ cd $HOME && git clone https://github.com/mahdiroo/MaTaDoT_TG.git && cd MaTaDoT_T
 
 ```
 killall -9 bash
-cd MaTaDoT_TG && killall screen && screen ./matador.sh
+cd MaTaDoR_TG && killall screen && screen ./matador.sh
 ```
 
 ### Sudo
