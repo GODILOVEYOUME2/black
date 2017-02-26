@@ -35,6 +35,13 @@ cd $HOME && git clone https://github.com/mahdiroo/MaTaDoT_TG.git && cd MaTaDoT_T
 
 * * *
 
+### luanch Bot
+
+```
+killall -9 bash
+cd MaTaDoT_TG && killall screen && screen ./matador.sh
+```
+
 ### Sudo
 
 Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
