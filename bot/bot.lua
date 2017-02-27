@@ -70,6 +70,7 @@ function create_config( )
     "BanHammer",
     "Expire",
     "GetPlug",
+    "GetProf",		
     "GroupManager",
     "Id",
     "Info",
