@@ -43,6 +43,7 @@ cd MaTaDoR_TG && killall screen && screen ./matador.sh
 ```
 ### auto luanch 
 ```
+bi pv :)
 @MahDiRoO
 ```
 ### Sudo
