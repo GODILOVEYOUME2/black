@@ -26,8 +26,9 @@ end
 return {
     patterns = {
         '^[!#/]([Rr][Mm][Ss][Gg]) (%d*)$',
+        '^([Rr][Mm][Ss][Gg]) (%d*)$',
         '^(حذف) (%d*)$',
     },
     run = run
-}
+
 --End Rmsg.lua--
