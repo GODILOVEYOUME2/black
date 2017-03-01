@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/MaTaDoR_TG
+cd MaTaDoR_TG
 
 install() {
 	    cd tg
