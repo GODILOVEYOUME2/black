@@ -21,7 +21,7 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/mahdiroo/MaTaDoR_TG.git
-cd MaTaDoT_TG
+cd MaTaDoR_TG
 chmod +x matador.sh
 ./matador.sh install
 ./matador.sh 
