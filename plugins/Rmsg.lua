@@ -1,4 +1,4 @@
-﻿--Begin Rmsg.lua By @MahDiRoO
+--Begin Rmsg.lua By @MahDiRoO
 local function delmsg (arg,data)
     for k,v in pairs(data.messages_) do
         tdcli.deleteMessages(v.chat_id_,{[0] = v.id_}, dl_cb, cmd)
@@ -23,12 +23,10 @@ local function run(msg, matches)
     end
 end
 
-return {
-    patterns = {
+return {patterns = {
         '^[!#/]([Rr]msg) (%d*)$',
         '^([Rr]msg) (%d*)$',
-        '^(حذف) (%d*)$'
+        '^(حذف) (%d*)$',
     },
-    run = run
-
+    run = run}
 --End Rmsg.lua--
