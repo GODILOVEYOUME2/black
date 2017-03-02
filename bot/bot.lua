@@ -93,14 +93,10 @@ function create_config( )
     moderation = {data = './data/moderation.json'},
     info_text = [[》MaTaDoR v1.0
 
-》https://github.com/mahdiroo/MaTaDoT_TG
+》https://github.com/mahdiroo/MaTaDoT
 
 》Sudo BoT :
 》@MahDiRoO
-
-Barai DaryafT v new be id :
-》@MahDiRoO
-MoraGe konid
 
 GoOd Luck:)
 ]],
