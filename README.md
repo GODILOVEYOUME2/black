@@ -24,7 +24,7 @@ cd $HOME && git clone https://github.com/mahdiroo/MaTaDoR.git && cd MaTaDoR && c
 
 * * *
 
-### luanch Bot
+### launch Bot
 
 ```
 killall -9 bash
@@ -34,7 +34,7 @@ cd MaTaDoR && killall screen && screen ./matador.sh
 * * *
 
 
-### auto luanch 
+### auto launch 
 ```
 bi pv :)
 @MahDiRoO
