@@ -7,7 +7,7 @@ end
 local function run(msg, matches)
     local chat_id = msg.chat_id_
     local msg_id = msg.id_
-    if matches[1] == 'rmsg' or matches[1] == 'حذف' then
+    if matches[1] == 'rmsg' or matches[1] == 'حذف' or matches[1] == 'Rmsg' then
         if tostring(chat_id):match("^-100") then 
             if is_owner(msg) then
                 if tonumber(matches[2]) > 100 or tonumber(matches[2]) < 1 then
@@ -25,9 +25,9 @@ end
 
 return {
     patterns = {
-        '^[!#/]([Rr][Mm][Ss][Gg]) (%d*)$',
-        '^([Rr][Mm][Ss][Gg]) (%d*)$',
-        '^(حذف) (%d*)$',
+        '^[!#/]([Rr]msg) (%d*)$',
+        '^([Rr]msg) (%d*)$',
+        '^(حذف) (%d*)$'
     },
     run = run
 
