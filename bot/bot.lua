@@ -61,7 +61,7 @@ function create_config( )
 	config = {
     enabled_plugins = {
     "AddKick",
-    "Azan",
+    "Fun",
     "BanHammer",
     "GetPlug",
     "GetProf",		
@@ -84,7 +84,13 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[:))
+    info_text = [[»https://github.com/mahdiroo/MaTaDoR
+		
+		»Sudo BoT :
+		» @MahDiRoO
+		
+		»Auto Launch
+		» @MahDiRoO
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
