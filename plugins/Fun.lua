@@ -420,8 +420,8 @@ return {
 		"^[!/]([Tt]r) ([^%s]+) (.*)$",
 		"^[!/]([Ss]hort) (.*)$",
 		"^[!/](photo) (.+)$",
-		"^[!/](sticker) (.+)$"
-                                "^([Hh]elpfun)$",
+		"^[!/](sticker) (.+)$",
+                "^([Hh]elpfun)$",
                	"^([Ww]eather) (.*)$",
 		"^([Cc]alc) (.*)$",
 		"^([Tt]ime)$",
