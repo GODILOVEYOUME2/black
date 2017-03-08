@@ -61,7 +61,6 @@ function create_config( )
 	config = {
     enabled_plugins = {
     "AddKick",
-    "Fun",
     "BanHammer",
     "GetPlug",
     "GetProf",		
@@ -394,7 +393,6 @@ function tdcli_update_callback (data)
 		end
 
 		var_cb(msg, msg)
-		file_cb(msg)
 	if msg.content_.ID == "MessageText" then
 		if msg_valid(msg) then
 			msg.text = msg.content_.text_
