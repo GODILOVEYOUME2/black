@@ -1188,7 +1188,7 @@ local hash = 'auto_leave_bot'
    end
 
 
-if matches[1] == "helptools" and is_mod(msg) then
+if matches[1] == "helpsudo" and is_mod(msg) or matches[1] == "Helpsudo" and is_mod(msg) then
 if not lang then
 text = [[
 
@@ -1414,70 +1414,70 @@ end
 
 return { 
 patterns = {                                                                   
-"^[!/#](helptools)$",
-		
-"^[!/#](visudo)$",
-		
-"^[!/#](desudo)$",
-		
-"^[!/#](sudolist)$",
-		
-"^[!/#](visudo) (.*)$",
-		
-"^[!/#](desudo) (.*)$",
-		
-"^[!/#](adminprom)$",
-		
-"^[!/#](admindem)$",
-		
-"^[!/#](adminlist)$",
-		
-"^[!/#](adminprom) (.*)$",
-		
-"^[!/#](admindem) (.*)$",
-		
-"^[!/#](leave)$",
-		
-"^[!/#](autoleave) (.*)$",
-		
+"^[!/#]([Hh]elpsudo)$",
+"^([Hh]elpsudo)$",	
+"^[!/#]([Vv]isudo)$",
+"^([Vv]isudo)$",		
+"^[!/#]([Dd]esudo)$",
+"^([Dd]esudo)$",		
+"^[!/#]([Ss]udolist)$",
+"^([Ss]udolist)$",		
+"^[!/#]([Vv]isudo) (.*)$",
+"^([Vv]isudo) (.*)$",		
+"^[!/#]([Dd]esudo) (.*)$",
+"^([Dd]esudo) (.*)$",	
+"^[!/#]([Aa]dminprom)$",
+"^([Aa]dminprom)$",		
+"^[!/#]([Aa]dmindem)$",
+"^([Aa]dmindem)$",		
+"^[!/#]([Aa]dminlist)$",
+"^([Aa]dminlist)$",	
+"^[!/#]([Aa]dminprom) (.*)$",
+"^([Aa]dminprom) (.*)$",		
+"^[!/#]([Aa]dmindem) (.*)$",
+"^([Aa]dmindem) (.*)$",		
+"^[!/#]([Ll]eave)$",
+"^([Ll]eave)$",		
+"^[!/#]([Aa]utoleave) (.*)$",
+"^([Aa]utoleave) (.*)$",	
 "^[!/#]([Mm]atador)$",
-		
-"^[!/#](creategroup) (.*)$",
-		
-"^[!/#](createsuper) (.*)$",
-		
-"^[!/#](tosuper)$",
-		
-"^[!/#](chats)$",
-		
-"^[!/#](clear cache)$",
-		
-"^[!/#](join) (.*)$",
-		
-"^[!/#](rem) (.*)$",
-		
-"^[!/#](import) (.*)$",
-		
-"^[!/#](setbotname) (.*)$",
-		
-"^[!/#](setbotusername) (.*)$",
-		
-"^[!/#](delbotusername) (.*)$",
-		
-"^[!/#](markread) (.*)$",
-		
-"^[!/#](bc) +(.*) (.*)$",
-		
-"^[!/#](broadcast) (.*)$",
-		
-"^[!/#](sendfile) (.*) (.*)$",
-		
-"^[!/#](save) (.*)$",
-		
-"^[!/#](sendplug) (.*)$",
-		
-"^[!/#](savefile) (.*)$",
-		
+"^([Mm]atador)$",		
+"^[!/#]([Cc]reategroup) (.*)$",
+"^([Cc]reategroup) (.*)$",		
+"^[!/#]([Cc]reatesuper) (.*)$",
+"^([Cc]reatesuper) (.*)$",		
+"^[!/#]([Tt]osuper)$",
+"^([Tt]osuper)$",		
+"^[!/#]([Cc]hats)$",
+"^([Cc]hats)$",		
+"^[!/#]([Cc]lear cache)$",
+"^([Cc]lear cache)$",		
+"^[!/#]([Jj]oin) (.*)$",
+"^([Jj]oin) (.*)$",		
+"^[!/#]([Rr]em) (.*)$",
+"^([Rr]em) (.*)$",		
+"^[!/#]([Ii]mport) (.*)$",
+"^([Ii]mport) (.*)$",		
+"^[!/#]([Ss]etbotname) (.*)$",
+"^([Ss]etbotname) (.*)$",		
+"^[!/#]([Ss]etbotusername) (.*)$",
+"^([Ss]etbotusername) (.*)$",		
+"^[!/#]([Dd]elbotusername) (.*)$",
+"^([Dd]elbotusername) (.*)$",		
+"^[!/#]([Mm]arkread) (.*)$",
+"^([Mm]arkread) (.*)$",		
+"^[!/#]([Bb]c) +(.*) (.*)$",
+"^([Bb]c) +(.*) (.*)$",		
+"^[!/#]([Bb]roadcast) (.*)$",
+"^([Bb]roadcast) (.*)$",		
+"^[!/#]([Ss]endfile) (.*) (.*)$",
+"^([Ss]endfile) (.*) (.*)$",		
+"^[!/#]([Ss]ave) (.*)$",
+"^([Ss]ave) (.*)$",		
+"^[!/#]([Ss]endplug) (.*)$",
+"^([Ss]endplug) (.*)$",		
+"^[!/#]([Ss]avefile) (.*)$",
+"^([Ss]avefile) (.*)$",		
 "^[!/#]([Aa]dd)$",
 "^([Aa]dd)$",		
 "^[!/#]([Gg]id)$",
