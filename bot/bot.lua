@@ -62,7 +62,6 @@ function create_config( )
     enabled_plugins = {
     "AddKick",
     "BanHammer",
-    "GetPlug",
     "GetProf",		
     "GroupManager",
     "Info",
@@ -83,7 +82,8 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[»https://github.com/mahdiroo/MaTaDoR
+    info_text = [[» MaTaDoR v3.0
+		»https://github.com/mahdiroo/MaTaDoR
 		
 		»Sudo BoT :
 		» @MahDiRoO
