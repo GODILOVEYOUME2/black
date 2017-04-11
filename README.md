@@ -1,4 +1,4 @@
-# [MahDiRoO](https://telegram.me/MahDiRoO)
+# [вℓα¢к ™](https://telegram.me/@GODILOVEYOUME2)
 
 
 * * *
@@ -9,17 +9,17 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/mahdiroo/MaTaDoR.git
-cd MaTaDoR
+git clone https://github.com/mahdiroo/blackmod.git
+cd blackmod
 chmod +x matador.sh
-./matador.sh install
-./matador.sh 
+./beybal.sh install
+./beybal.sh 
 # Enter a phone number & confirmation code.
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/mahdiroo/MaTaDoR.git && cd MaTaDoR && chmod +x matador.sh && ./matador.sh install && ./matador.sh
+cd $HOME && git clone https://github.com/blacknewn/blackmod.git && cd blackmod && chmod +x beybal.sh && ./beybal.sh install && ./beybal.sh
 ```
 
 * * *
@@ -28,7 +28,7 @@ cd $HOME && git clone https://github.com/mahdiroo/MaTaDoR.git && cd MaTaDoR && c
 
 ```
 killall -9 bash
-cd MaTaDoR && killall screen && screen ./matador.sh
+cd blackmod && killall screen && screen ./beybal.sh
 ```
 
 * * *
@@ -37,7 +37,7 @@ cd MaTaDoR && killall screen && screen ./matador.sh
 ### auto launch 
 ```
 bi pv :)
-@MahDiRoO
+@GODILOVEYOUME2
 ```
 
 * * *
