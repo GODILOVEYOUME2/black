@@ -26,7 +26,7 @@ local function run(msg, matches)
 end
 return {
     patterns = {
-        '^[!#/]([Dd][Ee][Ll][Mm]) (%d*)$',
+        '^[!#/]([Dd][Ee][Ll]) (%d*)$',
     },
     run = run
 }
