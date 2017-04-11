@@ -1,4 +1,4 @@
-# [вℓα¢к ™](https://telegram.me/@GODILOVEYOUME2)
+# [вℓα¢к ™](https://telegram.me/GODILOVEYOUME2)
 
 
 * * *
