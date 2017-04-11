@@ -9,7 +9,7 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/mahdiroo/blackmod.git
+git clone https://github.com/blacknewn/blackmod.git
 cd blackmod
 chmod +x matador.sh
 ./beybal.sh install
@@ -36,7 +36,7 @@ cd blackmod && killall screen && screen ./beybal.sh
 
 ### auto launch 
 ```
-bi pv :)
+bi pv :)🔮
 @GODILOVEYOUME2
 ```
 
