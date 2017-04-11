@@ -1,17 +1,17 @@
---Begin Time.lua By @MahDiRoO
-function run(msg, matches)
-local url , res = http.request('http://api.gpmod.ir/time/')
-if res ~= 200 then return "مشکل اتصال" end
+--By : @Sherider
+function sheri(msg, matches)
+local url , res = http.request('http://probot.000webhostapp.com/api/time.php/')
+if res ~= 200 then return "No connection" end
 local jdat = json:decode(url)
-local text = '*Ir Time:* _'..jdat.FAtime..'_\n*Ir Data:* _'..jdat.FAdate..'_\n------------\n*En Time:* _'..jdat.ENtime..'_\n *En Data:* _'..jdat.ENdate.. '_\n'
+local text = 'ساعت :  '..jdat.FAtime..'\n\nتاریخ :  '..jdat.FAdate..'\n\nتعداد روزهای جاری ماه : '..jdat.t..'\n\nعدد روز در هفته : '..jdat.w..'\n\nشماره ی این هفته در سال : '..jdat.W..'\n\nنام باستانی ماه : '..jdat.p..'\n\nشماره ی ماه از سال : '..jdat.b..'\n\nنام فصل : '..jdat.f..'\n\nشماره ی فصل از سال : '..jdat.n..'\n\nتعداد روز های گذشته از سال : '..jdat.z..'\n\nدرصد گذشته از سال : '..jdat.K..'\n\nتعداد روز های باقی مانده از سال : '..jdat.Q..'\n\nدرصد باقی مانده از سال : '..jdat.k..'\n\nنام حیوانی سال : '..jdat.q..'\n\nشماره ی قرن هجری شمسی : '..jdat.C..'\n\nسال کبیسه : خیر\n\nمنطقه ی زمانی تنظیم شده : '..jdat.e..'\n\nاختلاف ساعت جهانی : '..jdat.P..'\n\nاختلاف ساعت جهانی به ثانیه : '..jdat.Z..'\n\n'
   tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 end
 return {
   patterns = {
-  "^[/!]([Tt][iI][Mm][Ee])$",
-  "^([Tt][iI][Mm][Ee])$",
-  "^(ساعت)$"
+  "^[/!]([Dd][Aa][Tt][Ee])$",
+  "^([Dd][Aa][Tt][Ee])$",
   }, 
-run = run 
+run = sheri
 }
---End Time.lua--
+--Good Luck:)
+--Date-Pro.lua
