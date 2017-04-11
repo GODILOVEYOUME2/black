@@ -3429,7 +3429,7 @@ end
 if matches[1] == "help" and is_mod(msg) or matches[1] == "Help" and is_mod(msg) then
 if not lang then
 text = [[
-📜Help of MataDor
+📜Help of Black
 #TG🏷
 〰〰〰〰〰〰〰〰〰〰〰
 ☆》#دستورات تنظیم مدیر و معاون 
@@ -3569,13 +3569,13 @@ text = [[
 🔶شما دوستان عزیز میتوانید از قرار دادن [!/#] در اول دستور استفاده نماید
 🔷دستورات به زبان انگلیسی هست و جواب دستورات به دو شکل فارسی و انگلیسی قابل تغییر است❕
 〰〰〰〰〰〰〰〰〰〰〰
-➰Powered by :@MahDiRoO
+➰Powered by :@GODILOVEYOUME2
 〰〰〰〰〰〰〰〰〰〰〰]]
 
 elseif lang then
 
 text = [[
-📜Help of MataDor
+📜Help of Black
 #TG🏷
 〰〰〰〰〰〰〰〰〰〰〰
 ☆》#دستورات تنظیم مدیر و معاون 
@@ -3723,7 +3723,7 @@ end
 if matches[1] == "راهنما" and is_mod(msg) then
 text = [[
 
-📜راهنمای ربات ماتادور
+📜راهنمای ربات بلک
 #TG🏷
 〰〰〰〰〰〰〰〰〰〰〰
 ☆》#دستورات تنظیم مدیر و معاون 
