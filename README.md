@@ -48,7 +48,7 @@ bi pv :)
 Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
 ```
     sudo_users = {
-    377450049,
+    202024626,
     0,
     YourID
   }
