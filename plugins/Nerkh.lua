@@ -1,30 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @blacknewn
-
-0
-5
-
-    5
-
-mahdiroo/MaTaDoR
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Pulse
-Graphs
-MaTaDoR/plugins/Nerkh.lua
-74cf6b2 on Feb 26
-@mahdiroo mahdiroo Add files via upload
-31 lines (29 sloc) 614 Bytes
 --Begin Nerkh.lua By @MahDiRoO
 do
  function run(msg, matches)
@@ -48,14 +21,9 @@ return {
 patterns = {
 "^[!/#][Nn]erkh$",
 "^[Nn]erkh$",
-"^k,خ$"
+"^jkmjnjnj$"
 },
 run = run
 }
 end
 --End Nerkh.lua--
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
-
