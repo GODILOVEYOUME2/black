@@ -83,7 +83,6 @@ function create_config( )
     "cleanBlackList",
     "cleanbot",
     "setnerkh"
-    "BotOn_Off",
     "Invite"		
 	},
     sudo_users = {202024626},
