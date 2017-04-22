@@ -70,20 +70,13 @@ function create_config( )
     "Nerkh",
     "Ping",
     "Plugins",
+    "Poker",
     "Rank",
     "Report",
     "Rmsg",
     "Time",
     "Tools",
-    "Write",
-    "lock_fosh",
-    "magam",
-    "del",
-    "date",
-    "cleanBlackList",
-    "cleanbot",
-    "setnerkh"
-    "Invite"		
+    "Write"	
 	},
     sudo_users = {202024626},
     admins = {},
