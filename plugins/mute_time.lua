@@ -10,7 +10,7 @@ local function run(msg, matches)
   if matches[1]:lower() == 'mt' and is_admin(msg) then
      local hash = 'mute_time:'..msg.chat_id_
      if not matches[2] then
-		return "_لطفا ساعت و دقیقه را وارد نمایید!_"
+		return "_لطفا ساعت و دقیقه را وارد نمایید🕔!_"
   else
      local hour = string.gsub(matches[2], 'h', '')
      local num1 = tonumber(hour) * 3600
@@ -18,7 +18,7 @@ local function run(msg, matches)
      local num2 = tonumber(minutes) * 60
      local num4 = tonumber(num1 + num2)
 	 redis:setex(hash, num4, true)
-     return "⛔️گروه به مدت: \n`"..matches[2].."` ساعت\n`"..matches[3].."` دقیقه \nتعطیل میباشد.️"
+     return "⛔️گروه به مدت: \n`"..matches[2].."` 🕔ساعت\n`"..matches[3].."` 🕔دقیقه \nتعطیل میباشد.️"
     end
   end
   if matches[1]:lower() == 'unmt' and is_admin(msg) then
@@ -36,4 +36,4 @@ return {
   run = run,
   pre_process = pre_process
 }
---end by #@To0fan#
+--end by #@GODILOVEYOUME2#
