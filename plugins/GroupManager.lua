@@ -370,9 +370,9 @@ tdcli_function ({
   end
 else
     if lang then
-  return tdcli.sendMessage(data.chat_id_, "", 0, "_کاربر یافت نشد_", 0, "md")
+  return tdcli.sendMessage(data.chat_id_, "", 0, "__", 0, "md")
    else
-  return tdcli.sendMessage(data.chat_id_, "", 0, "*User Not Found*", 0, "md")
+  return tdcli.sendMessage(data.chat_id_, "", 0, "**", 0, "md")
       end
    end
 end
