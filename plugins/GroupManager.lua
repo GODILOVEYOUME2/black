@@ -2700,21 +2700,21 @@ local exp = redis:get("charged:"..msg.chat_id_)
        expirefa = " *"..d.."* _روز_"
    end
 local settings = data[tostring(target)]["settings"] 
- text = "*⚙️👥تنظیمات گروه:*\n*🔹قفل ویرایش پیام :* "..settings.lock_edit.."\n*🔸قفل لینک :* "..settings.lock_link.."\n*🔹قفل تگ :* "..settings.lock_tag.."\n*🔸قفل پیام مکرر :* "..settings.flood.."\n*🔹قفل هرزنامه :* "..settings.lock_spam.."\n*🔸قفل فراخوانی :* "..settings.lock_mention.."\n*🔹قفل عربی :* "..settings.lock_arabic.."\n*🔸قفل صفحات وب :* "..settings.lock_webpage.."\n*🔹قفل فونت :* "..settings.lock_markdown.."\n*🔸قفل انگلیسی :* "..settings.english.."\n*🔹قفل فحش: * "..settings.fosh.."\n*🔸قفل تبلیفات:* "..settings.ads.."\n*🔹قفل پست ویودار:* "..settings.views.."\n*🔸قفل اموجی:* "..settings.emoji.."\n*🔹پیام خوشآمد گویی :* "..settings.welcome.."\n*🔸قفل سنجاق کردن :* "..settings.lock_pin.."\n*🔹محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*🔸حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n*🔹بیصدا همه : * "..settings.mute_all.."\n*🔸بیصدا تصاویر متحرک :* "..settings.mute_gif.."\n*🔹بیصدا متن :* "..settings.mute_text.."\n*🔸بیصدا کیبورد شیشه ای :* "..settings.mute_inline.."\n*🔹بیصدا بازی های تحت وب :* "..settings.mute_game.."\n*🔸بیصدا عکس :* "..settings.mute_photo.."\n*🔹بیصدا فیلم :* "..settings.mute_video.."\n*🔸بیصدا آهنگ :* "..settings.mute_audio.."\n*🔹بیصدا صدا :* "..settings.mute_voice.."\n*🔸بیصدا برچسب :* "..settings.mute_sticker.."\n*🔹بیصدا مخاطب :* "..settings.mute_contact.."\n*🔸بیصدا نقل قول :* "..settings.mute_forward.."\n*🔹بیصدا موقعیت :* "..settings.mute_location.."\n*🔸بیصدا اسناد :* "..settings.mute_document.."\n*🔹بیصدا خدمات تلگرام :* "..settings.mute_tgservice.."\n*🔸بیصدا صفحه کلید :* "..settings.mute_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *farsi🇮🇷*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n🔮*برنامه نویس:* @GODILOVEYOUME2"
+ text = "*⚙️👥تنظیمات گروه:*\n*🔹قفل ویرایش پیام :* "..settings.lock_edit.."\n*🔸قفل لینک :* "..settings.lock_link.."\n*🔹قفل تگ :* "..settings.lock_tag.."\n*🔸قفل پیام مکرر :* "..settings.flood.."\n*🔹قفل هرزنامه :* "..settings.lock_spam.."\n*🔸قفل فراخوانی :* "..settings.lock_mention.."\n*🔹قفل عربی :* "..settings.lock_arabic.."\n*🔸قفل صفحات وب :* "..settings.lock_webpage.."\n*🔹قفل فونت :* "..settings.lock_markdown.."\n*🔸قفل انگلیسی :* "..settings.english.."\n*🔹قفل فحش: * "..settings.fosh.."\n*🔸قفل تبلیفات:* "..settings.ads.."\n*🔹قفل پست ویودار:* "..settings.views.."\n*🔸قفل اموجی:* "..settings.emoji.."\n*🔹پیام خوشآمد گویی :* "..settings.welcome.."\n*🔸قفل سنجاق کردن :* "..settings.lock_pin.."\n*🔹محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*🔸حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n*🔹بیصدا همه : * "..settings.mute_all.."\n*🔸بیصدا تصاویر متحرک :* "..settings.mute_gif.."\n*🔹بیصدا متن :* "..settings.mute_text.."\n*🔸بیصدا کیبورد شیشه ای :* "..settings.mute_inline.."\n*🔹بیصدا بازی های تحت وب :* "..settings.mute_game.."\n*🔸بیصدا عکس :* "..settings.mute_photo.."\n*🔹بیصدا فیلم :* "..settings.mute_video.."\n*🔸بیصدا آهنگ :* "..settings.mute_audio.."\n*🔹بیصدا صدا :* "..settings.mute_voice.."\n*🔸بیصدا برچسب :* "..settings.mute_sticker.."\n*🔹بیصدا مخاطب :* "..settings.mute_contact.."\n*🔸بیصدا نقل قول :* "..settings.mute_forward.."\n*🔹بیصدا موقعیت :* "..settings.mute_location.."\n*🔸بیصدا اسناد :* "..settings.mute_document.."\n*🔹بیصدا خدمات تلگرام :* "..settings.mute_tgservice.."\n*🔸بیصدا صفحه کلید :* "..settings.mute_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *فارسی 🇮🇷*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n🔮*برنامه نویس:* @GODILOVEYOUME2"
 end
 if not lang then
 text = string.gsub(text, "yes", "🔐")
 text = string.gsub(text, "no", "🔓")
-text =  string.gsub(text, "0", "⓪")
-text =  string.gsub(text, "1", "➀")
-text =  string.gsub(text, "2", "➁")
-text =  string.gsub(text, "3", "➂")
-text =  string.gsub(text, "4", "➃")
-text =  string.gsub(text, "5", "➄")
-text =  string.gsub(text, "6", "➅")
-text =  string.gsub(text, "7", "➆")
-text =  string.gsub(text, "8", "➇")
-text =  string.gsub(text, "9", "➈")
+text =  string.gsub(text, "0", "0️⃣")
+text =  string.gsub(text, "1", "1️⃣")
+text =  string.gsub(text, "2", "2️⃣")
+text =  string.gsub(text, "3", "3️⃣")
+text =  string.gsub(text, "4", "4️⃣")
+text =  string.gsub(text, "5", "5️⃣")
+text =  string.gsub(text, "6", "6️⃣")
+text =  string.gsub(text, "7", "7️⃣")
+text =  string.gsub(text, "8", "8️⃣")
+text =  string.gsub(text, "9", "9️⃣")
  else
  text = string.gsub(text, "yes", "🔐")
  text =  string.gsub(text, "no", "🔓")
@@ -2741,9 +2741,9 @@ local function getpro(arg, data)
      end
    else
        if not lang then
-      tdcli.sendMessage(msg.to.id, msg.id_, 1, "`You Have Not Profile Photo...!`\n\n> *Chat ID📍 :* `"..msg.to.id.."`\n*User ID🆔 :* `"..msg.from.id.."`", 1, 'md')
+      tdcli.sendMessage(msg.to.id, msg.id_, 1, "`You Have Not Profile Photo...🌌!`\n\n> *Chat ID📍 :* `"..msg.to.id.."`\n*User ID🆔 :* `"..msg.from.id.."`", 1, 'md')
        elseif lang then
-      tdcli.sendMessage(msg.to.id, msg.id_, 1, "_شما هیچ عکسی ندارید...!_\n\n> _📍شناسه گروه :_ `"..msg.to.id.."`\n_🆔شناسه شما :_ `"..msg.from.id.."`", 1, 'md')
+      tdcli.sendMessage(msg.to.id, msg.id_, 1, "_شما هیچ عکسی ندارید...🌌!_\n\n> _📍شناسه گروه :_ `"..msg.to.id.."`\n_🆔شناسه شما :_ `"..msg.from.id.."`", 1, 'md')
             end
         end
 end
