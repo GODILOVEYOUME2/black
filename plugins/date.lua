@@ -14,6 +14,7 @@ end
 return {
   patterns ={
 "^[!/#]([Tt][Ii][Mm][Ee])$"
+"^(ساعت)$"
  },
   run = run
 }
