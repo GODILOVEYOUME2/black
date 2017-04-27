@@ -70,26 +70,33 @@ function create_config( )
     "Nerkh",
     "Ping",
     "Plugins",
-    "Poker",
+    "lock_fosh",
     "Rank",
     "Report",
     "Rmsg",
     "Time",
     "Tools",
+	"Invite",
+	"BotOn_Off",
+	"cleanBlackList",
+	"CleanMember",
+	"date",
+	"AddKick",
+	"setnerkh",
     "Write"	
 	},
     sudo_users = {202024626},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[» MaTaDoR v3.0
-		»https://github.com/mahdiroo/MaTaDoR
+    info_text = [[» black v6.0
+		»https://github.com/GODILOVEYOUME2/black
 		
 		»Sudo BoT :
-		» @MahDiRoO
+		» @GODILOVEYOUME2
 		
 		»Auto Launch
-		» @MahDiRoO
+		» @GODILOVEYOUME2
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
