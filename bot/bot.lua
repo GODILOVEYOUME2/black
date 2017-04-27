@@ -44,7 +44,6 @@ function save_data(filename, data)
 	f:write(s)
 	f:close()
 end
-
 function match_plugins(msg)
 	for name, plugin in pairs(plugins) do
 		match_plugin(plugin, name, msg)
@@ -76,13 +75,12 @@ function create_config( )
     "Rmsg",
     "Time",
     "Tools",
-	"Invite",
-	"BotOn_Off",
-	"cleanBlackList",
-	"CleanMember",
-	"date",
-	"AddKick",
-	"setnerkh",
+    "Invite",
+    "BotOn_Off",
+    "cleanBlackList",
+    "CleanMember",
+    "date",
+    "setnerkh",
     "Write"	
 	},
     sudo_users = {202024626},
