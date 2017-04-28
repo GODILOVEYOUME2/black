@@ -21,12 +21,6 @@ cd black && killall screen && screen ./beybal.sh
 
 * * *
 
-GODILOVEYOUME2
-### auto launch 
-```
-beya PV 
-
-* * *
 
 # Installation
 
@@ -49,7 +43,10 @@ cd $HOME && git clone https://github.com/GODILOVEYOUME2/black.git && cd black &&
 
 * * *
 
-
+### auto launch Black
+```
+bi pv ✅
+@GODILOVEYOUME2
 ```
   
 ### Sudo
