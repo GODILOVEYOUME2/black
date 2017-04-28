@@ -61,14 +61,4 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
     YourID
   }
   
-  *****
-  
-  
-# Developers!
 
-[Sam taylor](https://github.com/GODILOVEYOUME2) ([Telegram](https://telegram.me/GODILOVEYOUME2))
-
-
-### Our Telegram channel:
-
-[@Mytelegramappnew](https://telegram.me/Mytelegramappnew)
