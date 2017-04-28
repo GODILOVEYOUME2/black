@@ -9,7 +9,8 @@ end
 return {
   patterns = {
   "^[/!]([Dd][Aa][Tt][Ee])$",
-  "^([Dd][Aa][Tt][Ee])$"
+  "^([Dd][Aa][Tt][Ee])$",
+   "^(ساعت)$"
   }, 
 run = sheri
 }
