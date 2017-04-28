@@ -1,51 +1,66 @@
 # [вℓα¢к ™](https://telegram.me/GODILOVEYOUME2)
 
+[![سورس دو زبانه](http://img.shields.io/badge/Bot%20API-v2.3.1-00aced.svg)](https://telegram.me/teamonlinebot)
+[![اتولانچ عالی](https://img.shields.io/badge/💬%20Telegram-BeyondTeam-00aced.svg)](https://telegram.me/GODILOVEYOUME2)
+
+## BLACK V6.0 
+ANTISAPM 
 
 * * *
 
+## Configure
+
+* Put Your Bot `TOKEN` At Line `3`
+* Put Your `Telegram ID` At Line `5 & 133`
 
 # Installation
 
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/blacknewn/blackmod.git
-cd blackmod
-chmod +x matador.sh
-./beybal.sh install
-./beybal.sh 
-# Enter a phone number & confirmation code.
+git clone https://github.com/BeyondTeam/BDMessenger.git
+cd BDMessenger
+chmod +x beyond.sh
+./beyond.sh install
+./beyond.sh 
+
+# End ;)
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/blacknewn/blackmod.git && cd blackmod && chmod +x beybal.sh && ./beybal.sh install && ./beybal.sh
+cd $HOME && git clone https://github.com/BeyondTeam/BDMessenger.git && cd BDMessenger && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
 ```
 
 * * *
+# After Run
+* Add Your Bot To Your Group And Send `/setrealm` Command!
+* * *
 
-### launch Bot
+# Support and Development
 
-```
-killall -9 bash
-cd blackmod && killall screen && screen ./beybal.sh
-```
+More information [Beyond Global Chat](https://t.me/joinchat/AAAAAEGaKOxC8K6cJ3bCcw)
+
+# Special thanks to
+
+[@MrHalix](https://github.com/MrHalix)
 
 * * *
 
+# Developers!
 
-### auto launch 
-```
-bi pv :)🔮
-@GODILOVEYOUME2
-```
+[SoLiD](https://github.com/solid021) ([Telegram](https://t.me/SoLiD))
 
-* * *
+[MAKAN](https://github.com/makanj) ([Telegram](https://t.me/MAKAN))
 
+[ToOfan](https://github.com/To0fan) ([Telegram](https://t.me/ToOfan))
 
-### Sudo
+[CliFather](https://t.me/CliFather)
 
-Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
+### Our Telegram channel:
+
+[@BeyondTeam](https://t.me/BeyondTeam)
+
 ```
     sudo_users = {
     202024626,
