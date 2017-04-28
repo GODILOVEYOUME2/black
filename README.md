@@ -1,5 +1,3 @@
-
-
 # [вℓα¢к ™](https://telegram.me/GODILOVEYOUME2)
 
 [![سورس دو زبانه](http://img.shields.io/badge/Secure%20Black-v6.0-00aced.svg)](https://telegram.me/teamonlinebot)
@@ -62,3 +60,6 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
   }
   
 
+# Developers!
+
+[sam taylor](https://github.com/GODILOVEYOUME2)
