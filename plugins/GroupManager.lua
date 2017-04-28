@@ -1,21 +1,21 @@
---Begin GroupManager.lua By @MahDiRoO
+--Begin GroupManager.lua By @GODILOVEYOUME2
 local function modadd(msg)
 local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
     -- superuser and admins only (because sudo are always has privilege)
     if not is_admin(msg) then
    if not lang then
-        return '_You are not bot admin_'
+        return '_✨You are not bot admin✨_'
 else
-     return 'شما مدیر ربات نمیباشید'
+     return '✨شما مدیر ربات نمیباشید✨'
     end
 end
     local data = load_data(_config.moderation.data)
   if data[tostring(msg.to.id)] then
 if not lang then
-   return '_Group is already added_'
+   return '_✨Group is already added✨_'
 else
-return 'گروه در لیست گروه های مدیریتی ربات هم اکنون موجود است'
+return '✨گروه در لیست گروه های مدیریتی ربات هم اکنون موجود است✨'
   end
 end
         -- create data array in moderation.json
@@ -71,9 +71,9 @@ end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
     if not lang then
-  return '*Group has been added*'
+  return '*✨Group has been added✨*'
 else
-  return 'گروه با موفقیت به لیست گروه های مدیریتی ربات افزوده شد'
+  return '✨گروه با موفقیت به لیست گروه های مدیریتی ربات افزوده شد✨'
 end
 end
 
@@ -85,16 +85,16 @@ local lang = redis:get(hash)
      if not lang then
         return '_You are not bot admin_'
    else
-        return 'شما مدیر ربات نمیباشید'
+        return '✨شما مدیر ربات نمیباشید✨'
     end
    end
     local data = load_data(_config.moderation.data)
     local receiver = msg.to.id
   if not data[tostring(msg.to.id)] then
   if not lang then
-    return '_Group is not added_'
+    return '_✨Group is not added✨_'
 else
-    return 'گروه به لیست گروه های مدیریتی ربات اضافه نشده است'
+    return '✨گروه به لیست گروه های مدیریتی ربات اضافه نشده است✨'
    end
   end
 
@@ -107,9 +107,9 @@ else
       end data[tostring(groups)][tostring(msg.to.id)] = nil
       save_data(_config.moderation.data, data)
  if not lang then
-  return '*Group has been removed*'
+  return '*✨Group has been removed✨*'
  else
-  return 'گروه با موفیت از لیست گروه های مدیریتی ربات حذف شد'
+  return '✨گروه با موفیت از لیست گروه های مدیریتی ربات حذف شد✨'
 end
 end
 
