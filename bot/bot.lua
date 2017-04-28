@@ -44,6 +44,7 @@ function save_data(filename, data)
 	f:write(s)
 	f:close()
 end
+
 function match_plugins(msg)
 	for name, plugin in pairs(plugins) do
 		match_plugin(plugin, name, msg)
@@ -75,12 +76,13 @@ function create_config( )
     "Rmsg",
     "Time",
     "Tools",
-    "Invite",
-    "BotOn_Off",
-    "cleanBlackList",
-    "CleanMember",
-    "date",
-    "setnerkh",
+	"Invite",
+	"BotOn_Off",
+	"cleanBlackList",
+	"CleanMember",
+	"date",
+	"AddKick",
+	"setnerkh",
     "Write"	
 	},
     sudo_users = {202024626},
@@ -88,7 +90,7 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
     info_text = [[» black v6.0
-		»https://github.com/GODILOVEYOUME2/black
+		»https://github.com/samtaylorblack/fablack
 		
 		»Sudo BoT :
 		» @GODILOVEYOUME2
