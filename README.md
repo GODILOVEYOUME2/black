@@ -8,62 +8,64 @@ ANTISAPM
 
 * * *
 
-## Configure
+### launch Bot
 
-* Put Your Bot `TOKEN` At Line `3`
-* Put Your `Telegram ID` At Line `5 & 133`
+```
+killall -9 bash
+&
+killall screen
+
+cd black && killall screen && screen ./beybal.sh 
+```
+
+* * *
+
+GODILOVEYOUME2
+### auto launch 
+```
+beya PV 
 
 # Installation
 
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/BeyondTeam/BDMessenger.git
-cd BDMessenger
-chmod +x beyond.sh
-./beyond.sh install
-./beyond.sh 
+git clone https://github.com/GODILOVEYOUME2/black.git
+cd black
+chmod +x beybal.sh
+./beybal.sh install
+./beybal.sh 
 
 # End ;)
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/BDMessenger.git && cd BDMessenger && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/GODILOVEYOUME2/black.git && cd black && chmod +x beybal.sh && ./beybal.sh install && ./beybal.sh
 ```
 
 * * *
-# After Run
-* Add Your Bot To Your Group And Send `/setrealm` Command!
-* * *
 
-# Support and Development
 
-More information [Beyond Global Chat](https://t.me/joinchat/AAAAAEGaKOxC8K6cJ3bCcw)
+```
+  
+### Sudo
 
-# Special thanks to
-
-[@MrHalix](https://github.com/MrHalix)
-
-* * *
-
-# Developers!
-
-[SoLiD](https://github.com/solid021) ([Telegram](https://t.me/SoLiD))
-
-[MAKAN](https://github.com/makanj) ([Telegram](https://t.me/MAKAN))
-
-[ToOfan](https://github.com/To0fan) ([Telegram](https://t.me/ToOfan))
-
-[CliFather](https://t.me/CliFather)
-
-### Our Telegram channel:
-
-[@BeyondTeam](https://t.me/BeyondTeam)
-
+Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
 ```
     sudo_users = {
     202024626,
     0,
     YourID
   }
+  
+  *****
+  
+# Developers!
+
+[Sam taylor](https://github.com/GODILOVEYOUME2) ([Telegram](https://telegram.me/GODILOVEYOUME2))
+
+
+### Our Telegram channel:
+
+[@Mytelegramappnew](https://telegram.me/Mytelegramappnew)
