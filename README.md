@@ -13,8 +13,7 @@ The source in both Persian and English is customizable for each group.   sam tay
 
 ```
 killall -9 bash
-&
-killall screen
+&killall screen
 
 cd black && killall screen && screen ./beybal.sh 
 ```
@@ -23,6 +22,7 @@ cd black && killall screen && screen ./beybal.sh
 
 
 # Installation
+
 
 ```sh
 # Let's install the bot.
@@ -69,6 +69,10 @@ sudo apt-get install python-pip
 sudo pip install PytelegramBotapi
 
 sudo pip install demjson
+
+launch:
+
+python BLHelper.py 
 ```
   
 
