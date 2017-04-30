@@ -3,7 +3,7 @@
 [![سورس دو زبانه](http://img.shields.io/badge/Secure%20Black-v6.0.1-00aced.svg)](https://telegram.me/teamonlinebot)
 [![اتولانچ عالی](https://img.shields.io/badge/💬%20Telegram-Secure-00aced.svg)](https://telegram.me/GODILOVEYOUME2)
 
-## BLACK V6.0 
+## BLACK V6.0.1
 
 The source in both Persian and English is customizable for each group.   sam taylor
 
