@@ -49,6 +49,14 @@ bi pv ✅
 @GODILOVEYOUME2
 ```
   
+
+  
+
+# Developers!
+
+[sam taylor](https://github.com/GODILOVEYOUME2)
+
+
 ### Sudo
 
 Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
@@ -58,8 +66,3 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
     0,
     YourID
   }
-  
-
-# Developers!
-
-[sam taylor](https://github.com/GODILOVEYOUME2)
