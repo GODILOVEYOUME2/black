@@ -39,14 +39,21 @@ chmod +x beybal.sh
 To install everything in one command, use:
 ```sh
 cd $HOME && git clone https://github.com/GODILOVEYOUME2/black.git && cd black && chmod +x beybal.sh && ./beybal.sh install && ./beybal.sh
+
+install+auto launch
+
+cd $HOME && git clone https://github.com/GODILOVEYOUME2/black.git && cd black && chmod +x beybal.sh && ./beybal.sh install && chmod 777 autobd.sh && screen ./autobd.sh
 ```
 
 * * *
 
 ### auto launch Black
 ```
-bi pv ✅
-@GODILOVEYOUME2
+cd black
+
+chmod 777 autobd.sh
+
+screen ./autobd.sh
 ```
   
 ### Install Helper
