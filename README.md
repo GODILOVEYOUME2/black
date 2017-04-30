@@ -49,7 +49,20 @@ bi pv ✅
 @GODILOVEYOUME2
 ```
   
+### Install Helper
+```
+Installation source Helper Black ❣️
 
+First, open up the file and set the token and the IDI Soo Do Knyd🌀
+
+sudo apt-get install python2.7
+
+sudo apt-get install python-pip
+
+sudo pip install PytelegramBotapi
+
+sudo pip install demjson
+```
   
 
 # Developers!
