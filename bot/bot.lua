@@ -83,6 +83,7 @@ function create_config( )
 	"date",
 	"AddKick",
 	"setnerkh",
+	"magam",
     "Write"	
 	},
     sudo_users = {202024626},
@@ -90,7 +91,7 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
     info_text = [[» black v6.0
-		»https://github.com/samtaylorblack/fablack
+		»https://github.com/GODILOVEYOUME2
 		
 		»Sudo BoT :
 		» @GODILOVEYOUME2
