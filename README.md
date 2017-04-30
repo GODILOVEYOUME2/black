@@ -13,7 +13,8 @@ The source in both Persian and English is customizable for each group.   sam tay
 
 ```
 killall -9 bash
-&killall screen
+      &
+killall screen
 
 cd black && killall screen && screen ./beybal.sh 
 ```
